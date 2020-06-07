@@ -16,16 +16,7 @@ desc 'outputs hola to the terminal'
   desc 'drop into the Pry console'
 task :console => :environment do
   Pry.start
+end 
 
 
-end
-
-[1] pry(main)> Student.all
-=> [[1, "Melissa", "10th"],
- [2, "April", "10th"],
- [3, "Luke", "9th"],
- [4, "Devon", "11th"],
- [5, "Sarah", "10th"]]
- end 
-end
-
+  end
